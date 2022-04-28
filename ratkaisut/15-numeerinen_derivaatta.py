@@ -1,5 +1,7 @@
+from math import sqrt
+
 def f(x):
-    return x**(1/3)
+    return sqrt(x)
 
 def d(a, h):
     return ( f(a + h) - f(a) ) / h
